@@ -4707,3 +4707,37 @@ ul.social-icons-information a:hover {
   border-bottom: 10px solid #e84393;
   padding-bottom: 15px;
 }
+.res {
+  width: 400px;
+  height: 400px;
+}
+.intro h1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  color: #2c065b;
+  margin: 14px 0 3px -2px;
+  text-shadow: #fff 2px 0 5px;
+}
+.ttl {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .ttl {
+    font-size: 60px;
+  }
+  .intro h1 {
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #2c065b;
+    margin: 14px 0 3px -2px;
+    text-shadow: #fff 2px 0 5px;
+  }
+  .res {
+    width: 100%;
+  }
+}
